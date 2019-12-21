@@ -1,7 +1,7 @@
 /* Theme */
 
 main {
-	background-image: linear-gradient(rgba(255, 255, 255, 0.65), rgba(255, 255, 255, 0.2)), url("../../static/img/landing-sadcat-01.jpg");
+	background-image: linear-gradient(rgba(255, 255, 255, 0.65), rgba(255, 255, 255, 0.2)), url("../img/cover.jpg");
 	color: #4B5658;
 	background-position: center;
 	background-size: cover;

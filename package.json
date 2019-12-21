@@ -1,0 +1,29 @@
+{
+  "name": "dev-landing-page",
+  "version": "1.0.0",
+  "description": "Minimal landing page for developers.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "grunt": "grunt"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tabby-jun/dev-landing-page.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tabby-jun/dev-landing-page/issues"
+  },
+  "homepage": "https://github.com/tabby-jun/dev-landing-page#readme",
+  "dependencies": {
+    "grunt": "^1.0.4"
+  },
+  "devDependencies": {
+    "grunt-contrib-clean": "^2.0.0",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-cssmin": "^3.0.0",
+    "grunt-contrib-htmlmin": "^3.1.0"
+  }
+}
