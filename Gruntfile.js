@@ -1,6 +1,16 @@
 module.exports = function (grunt) {
 
   grunt.initConfig({
+    connect: {
+      server: {
+        options: {
+          base: 'dist',
+          keepalive: true,
+          livereload: true,
+          port: 8080
+        }
+      }
+    },
     clean: ['dist/'],
     copy: {
       main: {
@@ -38,8 +48,10 @@ module.exports = function (grunt) {
   grunt.loadNpmTasks('grunt-contrib-copy')
   grunt.loadNpmTasks('grunt-contrib-htmlmin')
   grunt.loadNpmTasks('grunt-contrib-cssmin')
-  grunt.loadNpmTasks('grunt-contrib-clean');
+  grunt.loadNpmTasks('grunt-contrib-clean')
+  grunt.loadNpmTasks('grunt-contrib-connect');
 
   grunt.registerTask('default', ['clean', 'copy', 'htmlmin', 'cssmin'])
+  grunt.registerTask('serve', ['default', 'connect'])
 
 }
