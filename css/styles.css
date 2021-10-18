@@ -55,6 +55,10 @@ main > .tagline {
 	font-weight: 100;
 }
 
+main img {
+	margin: 0.2rem 0.5rem;
+}
+
 .icons-social i {
 	padding: 10px;
 }

@@ -30,7 +30,9 @@ module.exports = function (grunt) {
           sortClassName: true
         },
         files: {
-          'dist/index.html': 'index.html'
+          'dist/index.html': 'index.html',
+          'dist/404.html': '404.html',
+          'dist/50x.html': '50x.html'
         }
       }
     },
