@@ -17,7 +17,7 @@ module.exports = function (grunt) {
         files: {
           "dist/img/cover.jpg": "static/img/landing-sadcat-02.jpg",
           "dist/favicon.ico": "favicon.ico",
-          "dist/img/miniflux.svg": "static/img/miniflux.svg"
+          "dist/img/jupyter-notebook.svg": "static/img/jupyter-notebook.svg"
         },
       },
     },
